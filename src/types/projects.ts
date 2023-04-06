@@ -109,11 +109,12 @@ export interface Project {
 	description: string;
 	homepage?: string;
 	icon?: string;
-	language?: string;
+	techStack?: Array<string>;
 	name: string;
-	post?: string;
-	template?: boolean;
 	url: string;
+	// language?: string;
+	// post?: string;
+	// template?: boolean;
 }
 
 export interface ProjectPost {

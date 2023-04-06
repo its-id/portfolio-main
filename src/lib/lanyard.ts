@@ -16,6 +16,7 @@ export function useStatus(): {
 		socket: true,
 	});
 
+
 	return {
 		...result,
 		color:

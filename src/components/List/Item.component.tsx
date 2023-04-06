@@ -12,6 +12,7 @@ import type { ListAction, WithChildren } from '~/types';
 interface ItemProps extends WithChildren {
 	actions?: Array<ListAction>;
 	description?: string;
+	techStack?: Array<string>;
 	icon?: string | ReactNode;
 	iconColor?: string;
 	title: string;
@@ -21,6 +22,7 @@ export function Item({
 	actions,
 	children,
 	description,
+	techStack,
 	icon,
 	iconColor,
 	title,
@@ -51,6 +53,24 @@ export function Item({
 							<p className="flex items-center mt-1 text-gray-500 dark:text-gray-400 text-xs">
 								{description}
 							</p>
+						)}
+						{techStack && (
+							<div className="flex items-center flex-wrap md:space-x-4 mt-2 text-xs">
+								{techStack.map((tech, index) =>
+									tech.includes(':') ? (
+										<Icon
+											aria-hidden="true"
+											className="w-6 h-6 text-primary-600 mr-4 md:mr-0"
+											icon={tech}
+											key={index}
+										/>
+									) : (
+										<span className="text-primary-500 mr-4 md:mr-0" key={index}>
+											{tech}
+										</span>
+									),
+								)}
+							</div>
 						)}
 					</div>
 				</div>
@@ -102,6 +122,7 @@ export function Item({
 					</div>
 				)}
 			</div>
+
 			{children}
 		</li>
 	);

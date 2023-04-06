@@ -4,6 +4,7 @@ import { Animate, List } from '~/components';
 import { ListActionType } from '~/types';
 
 import type { GetStaticProps } from 'next';
+import { Icon } from '@iconify/react';
 
 import type { ListAction, Project } from '~/types';
 
@@ -28,7 +29,7 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 	return (
 		<Layout.Default seo={{ title: 'Indrakant ─ projects' }}>
 			<div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
-				<div className="relative max-w-xl mx-auto">
+				<div className="relative max-w-3xl mx-auto">
 					<List.Container>
 						{projects.map((project, index) => (
 							<Animate
@@ -39,17 +40,6 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 								}}>
 								<List.Item
 									actions={[
-										...(project.post
-											? [
-													{
-														type: ListActionType.LINK,
-														external: false,
-														href: project.post,
-														icon: 'feather:edit-3',
-														label: `Blog post about ${project.name}`,
-													} as ListAction,
-											  ]
-											: []),
 										...(project.homepage
 											? [
 													{
@@ -68,8 +58,17 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 										},
 									]}
 									description={project.description}
-									icon={<span className="text-xl">{project.icon}</span>}
+									icon={
+										<div className="relative flex items-center justify-center w-12 h-12 bg-primary-500 bg-opacity-15 backdrop-filter backdrop-blur-sm saturate-200 mx-2 px-1 rounded-full">
+											<Icon
+												aria-hidden="true"
+												className="w-6 h-6 text-primary-500"
+												icon={project.icon}
+											/>
+										</div>
+									}
 									title={project.name}
+									techStack={project.techStack}
 								/>
 							</Animate>
 						))}

@@ -1,11 +1,9 @@
 {
 	"private": true,
-	"name": "nuro.dev",
+	"name": "its-ikd",
 	"version": "2.1.1",
-	"description": "Personal Website for nuro.dev",
-	"repository": "https://github.com/nurodev/nuro.dev.git",
-	"author": "nurodev <me@nuro.dev>",
-	"license": "MIT",
+	"description": "Personal Website for its-ikd",
+	"repository": "",
 	"prettier": {
 		"arrowParens": "always",
 		"bracketSpacing": true,
@@ -54,7 +52,7 @@
 		"react-dom": "^17.0.2",
 		"react-hot-toast": "^2.1.1",
 		"react-use": "^17.3.1",
-		"react-use-lanyard": "^0.1.0",
+		"react-use-lanyard": "^0.3.0",
 		"rehype-autolink-headings": "^6.1.0",
 		"remark-code-titles": "^0.1.2",
 		"remark-emoji": "^3.0.1",
