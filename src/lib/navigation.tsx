@@ -56,6 +56,13 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			href: 'https://github.com/its-id',
 			external: true,
 		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:linkedin',
+			text: 'Linkedin',
+			href: 'https://www.linkedin.com/in/indrakant-dana/',
+			external: true,
+		},
 	],
 ];
 
