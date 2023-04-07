@@ -1,76 +1,72 @@
 [
 	{
-		"date": "03-14-2022",
-		"title": "Started @ Wander",
-		"description": "Joined the Wander team",
-		"icon": "feather:briefcase",
-		"link": {
-			"text": "Visit Wander",
-			"url": "https://wander.com/"
-		}
-	},
-	{
-		"date": "10-22-2021",
-		"title": "Launched nuro.dev",
-		"description": "Successfully launched my newly re-designed portfolio",
+		"date": "11-25-2022",
+		"title": "Won an International Hackathon",
+		"description": "Was the Team Lead of the winning team at UNESCO India Africa Hackathon 2022, an international hackathon organized in collaboration with the Government of India & 20+ African countries",
 		"icon": "feather:award"
 	},
 	{
-		"date": "03-15-2021",
-		"title": "Started @ Attio",
-		"description": "Joined the Attio team",
+		"date": "09-04-2022",
+		"title": "Technical Content Writer @Codedamn",
+		"description": "Produced high-quality articles on different technical concepts appropriate for intended audience. Topics covered were node, JavaScript, and full-stack development",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Attio",
-			"url": "https://attio.com/"
+			"text": "Visit The 10x Academy",
+			"url": "https://the10xacademy.com/"
 		}
 	},
 	{
-		"date": "11-16-2020",
-		"title": "Started @ Aiming.pro",
-		"description": "Joined the Aiming.pro team",
-		"icon": "feather:briefcase",
-		"link": {
-			"text": "Visit Aiming.pro",
-			"url": "https://aiming.pro/"
-		}
-	},
-	{
-		"date": "07-15-2020",
-		"title": "Graduated University!",
-		"description": "Successfully completed my Bachelor's Degree",
+		"date": "08-25-2022",
+		"title": "Won a National Hackathon!",
+		"description": "Winner of Smart India Hackathon 2022 organized by the Ministry of Education, Government of India",
 		"icon": "feather:award"
 	},
 	{
-		"date": "10-11-2018",
-		"title": "First Developer Role",
-		"description": "Began an internship as a junior developer working at Stink Studios",
+		"date": "08-04-2022",
+		"title": "Started as Frontend Developer @KonnectNxt",
+		"description": "Joined as a Full-time SDE Intern at KonnectNxt (formerly Xcelero) where I worked with the product team to build the entire frontend of the platform",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Stink Studios",
-			"url": "https://stinkstudios.com/"
+			"text": "Visit KonnectNxt",
+			"url": "https://konnectnxt.com/"
 		}
 	},
 	{
-		"date": "11-04-2016",
-		"title": "First Job!",
-		"description": "Began my first part-time job as a junior service desk analyist at CreeperHost",
+		"date": "01-30-2022",
+		"title": "First time being a Mentor!",
+		"description": "Started as a part-time Mentor for DSA and Full Stack Web Development at The 10x Academy",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit CreeperHost",
-			"url": "http://creeperhost.net/"
+			"text": "Visit The 10x Academy",
+			"url": "https://the10xacademy.com/"
 		}
 	},
 	{
-		"date": "09-10-2016",
-		"title": "Start University",
-		"description": "Began studying Computer Games Programming at Staffordshire University",
+		"date": "04-20-2021",
+		"title": "First Internship!",
+		"description": "Began my first part-time internship as a Teaching Assistant at Coding Ninjas",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit Coding Ninjas",
+			"url": "https://codingninjas.com/"
+		}
+	},
+	{
+		"date": "08-01-2020",
+		"title": "Became Placement Coordinator of our College",
+		"description": "Was selected as the Coordinator at Training and Placement Cell of our College. Became Head of Corporate Relations & Content Developer team later.",
+		"icon": "feather:briefcase"
+	},
+	{
+		"date": "01-30-2020",
+		"title": "Explored Graphic Designing",
+		"description": "Worked as a Graphic Designer with some great organizations and communities like Code for Cause, IOSD, and DSC MAIT",
+		"icon": "iconoir:design-nib"
+	},
+	{
+		"date": "08-20-2019",
+		"title": "Start College",
+		"description": "Began studying Computer Science and Engineering at Maharaja Agrasen Institute of Technology",
 		"icon": "feather:book"
-	},
-	{
-		"date": "08-09-1997",
-		"title": "Birthday!",
-		"description": "I was born the 9th of August 1997",
-		"icon": "feather:gift"
 	}
 ]

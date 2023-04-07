@@ -1,10 +1,74 @@
 [
 	{
-		"description": "",
-		"homepage": "",
-		"icon": "",
-		"techStack": [],
-		"name": "",
-		"url": ""
+		"description": "A real-time evaluation and monitoring platform for easy management of different events and reports to work in four hierarchical user-views to cater the requirements of Indian Council of Cultural Relations (ICCR)",
+		"homepage": "http://sangmanch.tech/",
+		"icon": "game-icons:india-gate",
+		"techStack": [
+			"simple-icons:react",
+			"simple-icons:nodejs",
+			"simple-icons:express",
+			"simple-icons:mongodb",
+			"simple-icons:python",
+			"Flask",
+			"XGBOD",
+			"simple-icons:scikit-learn",
+			"simple-icons:heroku"
+		],
+		"name": "Sangmanch",
+		"url": "https://github.com/Team-Disruptorss-SIH-22"
+	},
+	{
+		"description": "A multi-user platform to track the supply chain of Prescription Based drugs from manufacturer to the end-user to prevent untracked sales and black marketing.",
+		"homepage": "https://ncbdaas.me/",
+		"icon": "mdi:drugs",
+		"techStack": [
+			"simple-icons:react",
+			"simple-icons:nodejs",
+			"simple-icons:express",
+			"simple-icons:mongodb",
+			"simple-icons:python",
+			"Flask",
+			"DABL",
+			"auto-sklearn",
+			"simple-icons:heroku"
+		],
+		"name": "DAAS (Drug Analytics & Alerting System)",
+		"url": "https://github.com/SIH-22-MAIT"
+	},
+	{
+		"description": "Real World Social Website with all features like creating a post, likes, comments, User Signup/Login, User Profile Edit.",
+		"homepage": "https://ikd-codesocials.netlify.app/",
+		"icon": "mdi:people-group",
+		"techStack": ["simple-icons:react", "simple-icons:firebase", "simple-icons:netlify"],
+		"name": "CodeSocials",
+		"url": "https://github.com/its-id/Code-Socials"
+	},
+	{
+		"description": "Website accessing data on covid-19 across the globe. Live tracking done by the COVID-19 API",
+		"homepage": "https://ikd-covid19tracker.netlify.app/",
+		"icon": "majesticons:covid",
+		"techStack": [
+			"simple-icons:react",
+			"mdi:material-ui",
+			"simple-icons:netlify",
+			"axios",
+			"ChartJS"
+		],
+		"name": "Live COVID-19 Tracker",
+		"url": "https://github.com/its-id/Covid-Tracker"
+	},
+	{
+		"description": "Platform made to access the images sent from the Mars Rover datewise. Used Mars Rover Photos API by NASA.",
+		"homepage": "https://its-id.github.io/Mars-Rover-Images-Extractor/",
+		"icon": "game-icons:mars-pathfinder",
+		"techStack": [
+			"simple-icons:react",
+			"mdi:material-ui",
+			"simple-icons:netlify",
+			"axios",
+			"ChartJS"
+		],
+		"name": "MAIR",
+		"url": "https://github.com/its-id/Mars-Rover-Images-Extractor"
 	}
 ]

@@ -36,8 +36,9 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:link',
-			text: 'Referrals',
-			href: '/referrals',
+			text: 'Resume',
+			href: 'https://drive.google.com/file/d/1oXr0Itie8Rnh4srz2zfx4WT0phIew5yj/view?usp=sharing',
+			external: true,
 		},
 	],
 	[
