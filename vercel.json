@@ -6,15 +6,17 @@
 	"public": true,
 	"regions": ["lhr1"],
 	"redirects": [
-		{ "source": "/cv", "destination": "https://read.cv/its-ikd" },
-		{ "source": "/github", "destination": "https://github.com/its-ikddev" },
-		{ "source": "/linkedin", "destination": "https://www.linkedin.com/in/its-ikddev" },
+		{ "source": "/github", "destination": "https://github.com/its-id" },
+		{ "source": "/linkedin", "destination": "https://www.linkedin.com/in/Indrakant-Dana" },
 		{ "source": "/portfolio", "destination": "/projects" },
-		{ "source": "/resume", "destination": "https://read.cv/its-ikd" },
-		{ "source": "/twitter", "destination": "https://twitter.com/its-ikddev" },
+		{
+			"source": "/resume",
+			"destination": "https://drive.google.com/file/d/1oXr0Itie8Rnh4srz2zfx4WT0phIew5yj/view?usp=sharing"
+		},
+		{ "source": "/twitter", "destination": "https://twitter.com/its_ikD" },
 		{
 			"source": "/contact",
-			"destination": "https://twitter.com/direct_messages/create/its-ikddev"
+			"destination": "https://twitter.com/direct_messages/create/its_ikD"
 		}
 	]
 }

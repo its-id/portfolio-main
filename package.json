@@ -2,7 +2,7 @@
 	"private": true,
 	"name": "its-ikd",
 	"version": "2.1.1",
-	"description": "Personal Website for its-ikd",
+	"description": "Personal Website for ID",
 	"repository": "",
 	"prettier": {
 		"arrowParens": "always",
