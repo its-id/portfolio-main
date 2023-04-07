@@ -62,11 +62,12 @@
 		"homepage": "https://its-id.github.io/Mars-Rover-Images-Extractor/",
 		"icon": "game-icons:mars-pathfinder",
 		"techStack": [
-			"simple-icons:react",
-			"mdi:material-ui",
+			"akar-icons:html-fill",
+			"akar-icons:css-fill",
+			"akar-icons:javascript-fill",
+			"akar-icons:jquery-fill",
 			"simple-icons:netlify",
-			"axios",
-			"ChartJS"
+			"AJAX"
 		],
 		"name": "MAIR",
 		"url": "https://github.com/its-id/Mars-Rover-Images-Extractor"
