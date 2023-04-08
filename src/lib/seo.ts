@@ -14,16 +14,16 @@ export function useSeoProps(
 	return {
 		title,
 		description,
-		canonical: `https://its-ikd.vercel.app/${router.asPath}`,
+		canonical: `https://ikd.is-a.dev/${router.asPath}`,
 		openGraph: {
 			title,
 			description,
 			site_name: 'Indrakant',
-			url: `https://its-ikd.vercel.app/${router.asPath}`,
+			url: `https://ikd.is-a.dev/${router.asPath}`,
 			type: 'website',
 			images: [
 				{
-					url: 'https://its-ikd.vercel.app/banner.png',
+					url: 'https://ikd.is-a.dev/banner.png',
 					alt: description,
 					width: 1280,
 					height: 720,
