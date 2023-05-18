@@ -44,6 +44,21 @@
 		"url": "https://github.com/its-id/Code-Socials"
 	},
 	{
+		"description": "Web application showcasing uploaded image species with ML predictions (RESNET-50) stored in database with CRUD operations.",
+		"homepage": "https://ikd-imageclassifier.netlify.app/",
+		"icon": "ic:baseline-image-search",
+		"techStack": [
+			"simple-icons:react",
+			"simple-icons:mongodb",
+			"simple-icons:python",
+			"Flask",
+			"mdi:tailwind",
+			"simple-icons:netlify"
+		],
+		"name": "RESNET Classifier",
+		"url": "https://github.com/its-id/Image-Classifier"
+	},
+	{
 		"description": "Website accessing data on covid-19 across the globe. Live tracking done by the COVID-19 API",
 		"homepage": "https://ikd-covid19tracker.netlify.app/",
 		"icon": "majesticons:covid",
