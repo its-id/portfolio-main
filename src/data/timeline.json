@@ -3,19 +3,21 @@
 		"date": "06-07-2023",
 		"title": "Full Stack Intern @soCommerz",
 		"description": "Delivering high-quality, industry-level client projects as a frontend-focused full-stack web developer at soCommerz.",
-		"icon": "feather:briefcase"
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit soCommerz",
+			"url": "https://www.socommerz.com/"
+		}
 	},
 	{
 		"date": "04-20-2023",
 		"title": "Project Intern @IIT Delhi",
 		"description": "Was responsible for development of interactive machine learning software applications, under the supervision of Prof. Chetan Arora at IIT Delhi. Left due to unfavourable circumstances.",
-		"icon": "feather:briefcase"
-	},
-	{
-		"date": "01-20-2023",
-		"title": "Completed multiple frontend projects",
-		"description": "",
-		"icon": "feather:briefcase"
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit IIT Delhi",
+			"url": "https://www.cse.iitd.ac.in/"
+		}
 	},
 	{
 		"date": "11-25-2022",
