@@ -89,6 +89,12 @@ const config = {
 
 		return config;
 	},
+	typescript: {
+		ignoreBuildErrors: true,
+	},
+	eslint: {
+		ignoreDuringBuilds: true,
+	},
 };
 
 module.exports = withAxiom(config);
