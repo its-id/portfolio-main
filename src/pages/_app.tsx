@@ -45,6 +45,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
 		<ThemeProvider attribute="class" defaultTheme={Theme.SYSTEM} themes={Object.values(Theme)}>
 			<Analytics />
 			<Script
+				id="gtm-script"
 				strategy="lazyOnload"
 				src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
 			/>
