@@ -1,5 +1,23 @@
 [
 	{
+		"date": "06-07-2023",
+		"title": "Full Stack Intern @soCommerz",
+		"description": "Delivering high-quality, industry-level client projects as a frontend-focused full-stack web developer at soCommerz.",
+		"icon": "feather:briefcase"
+	},
+	{
+		"date": "04-20-2023",
+		"title": "Project Intern @IIT Delhi",
+		"description": "Was responsible for development of interactive machine learning software applications, under the supervision of Prof. Chetan Arora at IIT Delhi. Left due to unfavourable circumstances.",
+		"icon": "feather:briefcase"
+	},
+	{
+		"date": "01-20-2023",
+		"title": "Completed multiple frontend projects",
+		"description": "",
+		"icon": "feather:briefcase"
+	},
+	{
 		"date": "11-25-2022",
 		"title": "Won an International Hackathon",
 		"description": "Was the Team Lead of the winning team at UNESCO India Africa Hackathon 2022, an international hackathon organized in collaboration with the Government of India & 20+ African countries",
