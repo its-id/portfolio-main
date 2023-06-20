@@ -5,6 +5,7 @@ import { AppProps } from 'next/app';
 import { ThemeProvider } from 'next-themes';
 import { useEffectOnce, useEvent } from 'react-use';
 import { useRouter } from 'next/router';
+import Script from 'next/script';
 
 import 'inter-ui/inter.css';
 import 'nprogress/nprogress.css';
@@ -43,6 +44,21 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
 	return (
 		<ThemeProvider attribute="class" defaultTheme={Theme.SYSTEM} themes={Object.values(Theme)}>
 			<Analytics />
+			<Script
+				strategy="lazyOnload"
+				src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+			/>
+
+			<Script strategy="lazyOnload">
+				{`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+			</Script>
 			<Component {...pageProps} />
 			<style jsx global>{`
 				#nprogress .bar {
