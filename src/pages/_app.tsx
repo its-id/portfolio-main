@@ -43,22 +43,18 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
 
 	return (
 		<ThemeProvider attribute="class" defaultTheme={Theme.SYSTEM} themes={Object.values(Theme)}>
-			<Analytics />
+			{/* <Analytics /> */}
 			<Script
-				id="gtm-script"
-				strategy="lazyOnload"
 				src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+				strategy="afterInteractive"
 			/>
-
-			<Script strategy="lazyOnload">
-				{`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-                    page_path: window.location.pathname,
-                    });
-                `}
+			<Script id="google-analytics" strategy='afterInteractive'>
+				{
+					`window.dataLayer = window.dataLayer || []; 
+					function gtag(){dataLayer.push(arguments);} 
+					gtag('js', new Date()); 
+					gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');`
+				}
 			</Script>
 			<Component {...pageProps} />
 			<style jsx global>{`

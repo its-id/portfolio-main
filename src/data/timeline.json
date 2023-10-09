@@ -1,8 +1,8 @@
 [
 	{
 		"date": "06-07-2023",
-		"title": "Full Stack Intern @soCommerz",
-		"description": "Delivering high-quality, industry-level client projects as a frontend-focused full-stack web developer at soCommerz.",
+		"title": "Full Stack @soCommerz",
+		"description": "Started as an Intern, now transitioned to a full-time role. Delivering high-quality, industry-level client projects as a frontend-focused full-stack web developer at soCommerz.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit soCommerz",
@@ -31,8 +31,8 @@
 		"description": "Produced high-quality articles on different technical concepts appropriate for intended audience. Topics covered were node, JavaScript, and full-stack development",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit The 10x Academy",
-			"url": "https://the10xacademy.com/"
+			"text": "Visit my Articles",
+			"url": "https://codedamn.com/news/author/indrakant"
 		}
 	},
 	{

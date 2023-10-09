@@ -1,7 +1,7 @@
 {
 	"$schema": "https://openapi.vercel.sh/vercel.json",
 	"version": 2,
-	"alias": "ikd.is-a.dev",
+	"alias": "its-ikd.vercel.app",
 	"cleanUrls": true,
 	"public": true,
 	"regions": ["lhr1"],
@@ -11,7 +11,7 @@
 		{ "source": "/portfolio", "destination": "/projects" },
 		{
 			"source": "/resume",
-			"destination": "https://drive.google.com/file/d/1MXkSsDbPq7ZOcy_iomr77ERahk-Fz0Pr/view?usp=sharing"
+			"destination": "https://drive.google.com/file/d/1c6lt_rt1UYLJAUxkdfmaEK5ubRZB1Lg6/view?usp=sharing"
 		},
 		{ "source": "/twitter", "destination": "https://twitter.com/its_ikD" },
 		{

@@ -1,5 +1,39 @@
 [
 	{
+		"description": "A comprehensive obscene content blocking solution using multiple methods, such as image, text, audio, and video detection. It also includes a browser extension and a moderation dashboard for safe web navigation.",
+		"homepage": "https://agni-fe.vercel.app/",
+		"icon": "gala:secure",
+		"techStack": [
+			"simple-icons:react",
+			"simple-icons:nodejs",
+			"simple-icons:express",
+			"simple-icons:postgresql",
+			"simple-icons:python",
+			"mdi:tailwind",
+			"Flask",
+			"PyTorch",
+			"Caffe",
+			"simple-icons:vercel"
+		],
+		"name": "AGNI (Advanced Guard for Navigating Internet)",
+		"url": "https://github.com/Team-VAYU"
+	},
+	{
+		"description": "A platform for easy data collection, processing, and visualization to help schools improve. Helps schools collect, process, and visualize data to identify areas for improvement. Operated at three hierarchical views: teachers, schools, and district.",
+		"homepage": "https://learnup.vercel.app/",
+		"icon": "zondicons:education",
+		"techStack": [
+			"simple-icons:react",
+			"simple-icons:nodejs",
+			"simple-icons:express",
+			"simple-icons:mongodb",
+			"simple-icons:tableau",
+			"simple-icons:netlify"
+		],
+		"name": "LearnUp",
+		"url": "https://github.com/Team-CodeLunatics-UIA"
+	},
+	{
 		"description": "A real-time evaluation and monitoring platform for easy management of different events and reports to work in four hierarchical user-views to cater the requirements of Indian Council of Cultural Relations (ICCR)",
 		"homepage": "http://sangmanch.tech/",
 		"icon": "game-icons:india-gate",
