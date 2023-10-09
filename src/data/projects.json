@@ -94,7 +94,6 @@
 	},
 	{
 		"description": "Website accessing data on covid-19 across the globe. Live tracking done by the COVID-19 API",
-		"homepage": "https://ikd-covid19tracker.netlify.app/",
 		"icon": "majesticons:covid",
 		"techStack": [
 			"simple-icons:react",
