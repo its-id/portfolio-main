@@ -35,7 +35,7 @@
 	},
 	{
 		"description": "A real-time evaluation and monitoring platform for easy management of different events and reports to work in four hierarchical user-views to cater the requirements of Indian Council of Cultural Relations (ICCR)",
-		"homepage": "http://sangmanch.tech/",
+		"homepage": "https://sangmanch.netlify.app/",
 		"icon": "game-icons:india-gate",
 		"techStack": [
 			"simple-icons:react",
@@ -53,7 +53,7 @@
 	},
 	{
 		"description": "A multi-user platform to track the supply chain of Prescription Based drugs from manufacturer to the end-user to prevent untracked sales and black marketing.",
-		"homepage": "https://ncbdaas.me/",
+		"homepage": "https://ncbdaas.netlify.app/",
 		"icon": "mdi:drugs",
 		"techStack": [
 			"simple-icons:react",
