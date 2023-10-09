@@ -5,7 +5,7 @@
 		"icon": "gala:secure",
 		"techStack": [
 			"simple-icons:react",
-			"simple-icons:nodejs",
+			"mdi:nodejs",
 			"simple-icons:express",
 			"simple-icons:postgresql",
 			"simple-icons:python",
@@ -24,7 +24,7 @@
 		"icon": "zondicons:education",
 		"techStack": [
 			"simple-icons:react",
-			"simple-icons:nodejs",
+			"mdi:nodejs",
 			"simple-icons:express",
 			"simple-icons:mongodb",
 			"simple-icons:tableau",
@@ -39,7 +39,7 @@
 		"icon": "game-icons:india-gate",
 		"techStack": [
 			"simple-icons:react",
-			"simple-icons:nodejs",
+			"mdi:nodejs",
 			"simple-icons:express",
 			"simple-icons:mongodb",
 			"simple-icons:python",
@@ -57,7 +57,7 @@
 		"icon": "mdi:drugs",
 		"techStack": [
 			"simple-icons:react",
-			"simple-icons:nodejs",
+			"mdi:nodejs",
 			"simple-icons:express",
 			"simple-icons:mongodb",
 			"simple-icons:python",
