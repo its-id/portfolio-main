@@ -1,13 +1,50 @@
 [
 	{
+		"date": "27-09-2024",
+		"title": "First On-Campus Job @Career Center!",
+		"description": "Contributing to alumni career development initiatives and providing valuable support through Career Centre services at Stony Brook University.",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit Stony Brook University Career Centre",
+			"url": ""
+		}
+	},
+	{
+		"date": "26-08-2024",
+		"title": "Started Masters @USA",
+		"description": "Embarking on a new academic journey to deepen my technical skills and explore the frontiers of computer engineering at Stony Brook University.",
+		"icon": "feather:book",
+		"link": {
+			"text": "Visit Stony Brook University",
+			"url": "https://www.stonybrook.edu/"
+		}
+		
+	},
+	{
+		"date": "13-01-2024",
+		"title": "Founding Engineer @Xoul Inc",
+		"description": "Led the frontend development of an AI-powered entertainment platform, driving significant performance improvements, optimizing user experience, and integrating AI-enabled support for enhanced customer satisfaction.",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit Xoul",
+			"url": "https://xoul.ai/"
+		}
+	},
+	{
 		"date": "06-07-2023",
 		"title": "Full Stack @soCommerz",
-		"description": "Started as an Intern, now transitioned to a full-time role. Delivering high-quality, industry-level client projects as a frontend-focused full-stack web developer at soCommerz.",
+		"description": "Started as an Intern, transitioned to a full-time role. Delivered high-quality, industry-level client projects as a frontend-focused full-stack web developer at soCommerz.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit soCommerz",
 			"url": "https://www.socommerz.com/"
 		}
+	},
+	{
+		"date": "30-07-2023",
+		"title": "Completed my Undergrad",
+		"description": "A bittersweet moment as I bid farewell to my alma mater, cherishing the memories, friendships, and invaluable experiences that shaped me.",
+		"icon": "game-icons:graduate-cap"
 	},
 	{
 		"date": "04-20-2023",
@@ -79,14 +116,14 @@
 	},
 	{
 		"date": "01-30-2020",
-		"title": "Explored Graphic Designing",
-		"description": "Worked as a Graphic Designer with some great organizations and communities like Code for Cause, IOSD, and DSC MAIT",
+		"title": "UI/UX & Extracurriculars",
+		"description": "Worked as a Graphic Designer and managed multiple events with some great organizations and communities like Code for Cause, IOSD, and Google Developer Students Club of our College",
 		"icon": "iconoir:design-nib"
 	},
 	{
 		"date": "08-20-2019",
 		"title": "Start College",
-		"description": "Began studying Computer Science and Engineering at Maharaja Agrasen Institute of Technology",
+		"description": "Began studying Computer Science and Engineering at Guru Gobind Singh Indraprastha University",
 		"icon": "feather:book"
 	}
 ]
